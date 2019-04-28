@@ -96,6 +96,9 @@ footer {
   padding-top: 5px;
   border-top: 1px solid $gray-medium-light;
   color: $gray-light;
+  position: relative;
+  bottom: 0;
+  width: 80%;
   a {
     color: $gray;
     &:hover {
@@ -105,14 +108,84 @@ footer {
   small {
     float: left;
   }
+#media{
   ul {
-    float: right;
+    float: left;
     list-style: none;
     li {
       float: left;
-      margin-left: 15px;
+      margin-left: 0px;
+    }
+    h5{
+      font-weight: bold;
     }
   }
+}
+#useful_links{
+  ul {
+    float: left;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 0px;
+    }
+    h5{
+      font-weight: bold;
+    }
+  }
+}
+#general_inquiries{
+  ul {
+    float: left;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 0px;
+    }
+    h5{
+      font-weight: bold;
+    }
+  }
+}
+#useful_links{
+  ul {
+    float: left;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 0px;
+    }
+    h5{
+      font-weight: bold;
+    }
+  }
+}
+#general_inquiries{
+  ul {
+    float: left;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 0px;
+    }
+    h5{
+      font-weight: bold;
+    }
+  }
+}
+#contact_us{
+   ul {
+    float: left;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 0px;
+    }
+    h5{
+      font-weight: bold;
+    }
+  }
+}
 }
 
 /* sidebar */
