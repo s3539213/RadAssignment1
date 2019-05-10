@@ -1,14 +1,26 @@
+<% provide(:title, "Ruby on Rails Tutorial Sample App") %>
 <div class="center jumbotron">
-  <h1>Welcome to the Sample App</h1>
-
+  <h1>Welcome to Your Course App</h1>
   <h2>
-    This is the home page for the
-    <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-    sample application.
+    This is the home page for the RAD Assignment 2
   </h2>
 
-   <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
 </div>
 
-<%= link_to image_tag("rails.png", alt: "Rails logo"),
-            'http://rubyonrails.org/' %>
+<div class="col-xs-12 col-md-4" data-original-title="" title="">
+    <div class="block margin-bottom-three" data-original-title="" title="">
+        <h3 class="margin-top-none">View Course as Guest User</h3>
+        <p>Browse and view courses as a guest and sign up later</p>
+        <a class="btn btn-primary" href="/login" data-original-title="" title="">Browse all courses</a>
+    </div>
+</div>
+
+<div class="col-xs-12 col-md-4" data-original-title="" title="">
+    <div class="block margin-bottom-three" data-original-title="" title="">
+
+        <h3 class="margin-top-none">Sign in to your account</h3>
+        <p>Update your courses, rate courses, view coordinator information.</p>
+        <a class="btn btn-primary" href="/login" data-original-title="" title="">Login</a>
+    </div>
+</div>
